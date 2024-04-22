@@ -29,6 +29,12 @@ This is a Quiz App that has been refactored into a microservices architecture. T
 3. **Run Microservices**: Start both the Quiz Service and the Questions Service.
 4. **API Gateway**: Start the API Gateway to handle incoming requests and route them to the appropriate microservice.
 
+## API endpoints
+
+- POST /quiz/create/: Admin can create quiz by passing category name, title, numofQuestions as parameters.
+- GET /quiz/get/{id}/: To get the questions by id.
+- POST /quiz/submit/{id}/: User submits the quiz.
+
 ## Development Setup
 
 1. **Clone the Repository**: Clone this repository to your local machine.
